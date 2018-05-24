@@ -1,0 +1,38 @@
+Binary Operators
+================================================================
++				object.__add__(self, other)
+-				object.__sub__(self, other)
+*				object.__mul__(self, other)
+//				object.__floordiv__(self, other)
+/				object.__truediv__(self, other)
+%				object.__mod__(self, other)
+**				object.__pow__(self, other[, modulo])
+
+Extended Assignments:
+================================================================
++=				object.__iadd__(self, other)
+-=				object.__isub__(self, other)
+*=				object.__imul__(self, other)
+/=				object.__idiv__(self, other)
+//=				object.__ifloordiv__(self, other)
+%=				object.__imod__(self, other)
+**=				object.__ipow__(self, other[, modulo])
+
+Unary Operators:
+================================================================
+-				object.__neg__(self)
++				object.__pos__(self)
+
+conversion operators:
+================================================================
+int()			object.__int__(self)
+float()			object.__float__(self)
+
+Comparison Operators:
+================================================================
+<				object.__lt__(self, other)
+<=				object.__le__(self, other)
+==				object.__eq__(self, other)
+!=				object.__ne__(self, other)
+>=				object.__ge__(self, other)
+>				object.__gt__(self, other)
